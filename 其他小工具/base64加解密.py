@@ -11,7 +11,7 @@ while True:
         if note1 == "0":  # 返回请输入:0
             continue
         else:
-            A = base64.b64encode(note1)  # base64解密1
+            A = base64.b64encode(note1)  # base64解密
             print(A)
 
     if type == "2":
